@@ -13,6 +13,11 @@
     
 }
 
+.btncolorato:hover{
+    scale: 1.3;
+    border-radius: 2rem;
+}
+
 .card1, #scheda>* {
     width: calc(100% / 6);
     aspect-ratio: 1 / 1;
