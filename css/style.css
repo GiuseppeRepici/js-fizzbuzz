@@ -1,9 +1,19 @@
-.card2{
+.card2 , #scheda{
     display: flex;
     flex-wrap: wrap;
 }
+.margineappend{
+    margin-top: 300px;
+}
+.btncolorato{
+    background-color: gold;
+    color: blue;
+    font-size: 50px;
+    padding: 30px;
+    
+}
 
-.card1  {
+.card1, #scheda>* {
     width: calc(100% / 6);
     aspect-ratio: 1 / 1;
     background-color: black;
@@ -12,4 +22,24 @@
     justify-content: center;
     align-items: center;
     border: 10px white solid;
+}
+
+.blu{
+    background-color: blue;
+    color: gold;
+}
+
+.bianco{
+    background-color: green;
+    color: black;
+}
+
+.giallo{
+    background-color: yellow;
+    color: blue;
+}
+
+.sottotitolo{
+    font-size: 25px;
+    color: green;
 }
