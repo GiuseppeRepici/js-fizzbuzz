@@ -18,7 +18,7 @@ for(let i = 1 ; i < 101 ; i++ ) {
      }
     console.log(x);
 
-    card11.innerHTML += `<div class="card1">$( x )</div>`;
+    card11.innerHTML += `<div class="card1"> ${x} </div>`;
 }
 
 
